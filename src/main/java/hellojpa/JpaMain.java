@@ -26,7 +26,8 @@ public class JpaMain {
             em.close();
         }
 
-
         emf.close();
     }
 }
+
+
