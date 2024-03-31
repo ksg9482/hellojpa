@@ -15,8 +15,6 @@ public class JpaMain {
         try {
             //비영속
             Member member = new Member();
-            member.setId(1l);
-            member.setName("helloA");
 
             //영속
             em.persist(member); //영속화(저장)
